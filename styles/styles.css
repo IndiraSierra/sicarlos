@@ -6,42 +6,28 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-  }
-  
-  /*BACKGROUND VIDEO*/
-  .backgroundVideo {
-    display: none;
-    max-width: 100vw;
-    position: absolute;
-    z-index: 0;
-    display: block;
-    -webkit-filter: blur(18px);
-    -moz-filter: blur(18px);
-    -o-filter: blur(18px);
-    -ms-filter: blur(18px);
-    filter: blur(18px);
-  }
-  
-  @media (min-width: 1200px) {
-    .backgroundVideo {
-      width: 100%;
-    }
-  }
-  
-  #main {
+}
+
+#main {
     float: left;
     width: 100%;
-  }
-  
-  
-  /*TITLE AND SUBTITLE*/
-  .main-title {
+}
+
+
+/*TITLE AND SUBTITLE*/
+.main-title {
     font-family: 'Courier New', Courier, monospace;
     color: white;
-  }
-  
-  .main-subtitle {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.main-subtitle {
     font-family: 'Courier New', Courier, monospace;
     color: white;
-  }
-  
+    font-size: 2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+

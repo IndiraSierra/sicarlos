@@ -1,0 +1,53 @@
+/*BACKGROUND VIDEO*/
+.backgroundVideo {
+    display: none;
+    max-width: 100vw;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    top: 0%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    display: block;
+    -webkit-filter: blur(18px);
+    -moz-filter: blur(18px);
+    -o-filter: blur(18px);
+    -ms-filter: blur(18px);
+    filter: blur(18px);
+}
+
+
+@media (min-width: 1200px) {
+    .backgroundVideo {
+        width: 100%;
+    }
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.video-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
