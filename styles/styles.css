@@ -3,18 +3,15 @@ body, html {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
-    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #main {
-    float: left;
     width: 100%;
 }
 
-/*TITLE AND SUBTITLE*/
+/* TITLE AND SUBTITLE */
 .main-title {
-    font-family: 'Courier New', Courier, monospace;
     color: white;
     font-size: 5rem;
     margin-bottom: 1rem;
@@ -22,20 +19,19 @@ body, html {
 }
 
 .main-subtitle {
-    font-family: 'Courier New', Courier, monospace;
     color: white;
     font-size: 2rem;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
 
-
-/*SPA HTML SECTIONS*/
+/* SPA HTML SECTIONS */
 .section {
     display: none;
     min-height: 100vh;
     padding: 20px;
     transition: opacity 0.5s ease;
     opacity: 0;
+    box-sizing: border-box;
 }
 
 .section.active {
@@ -43,15 +39,27 @@ body, html {
     opacity: 1;
 }
 
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 #home {
-    position: relative;/* background video */
+    position: relative;
     padding: 0;  
-    margin: 0; 
+    margin: 0;
+    width: 100%;
+    height: 100vh;
 }
 
 #services, #contact {
-    background-color: #121212; /* dark background */
+    background-color: #121212;
     color: white;
 }
 
-
+/* DEBUGGING
+header, main, section, .video-container {
+    border: 1px solid red;
+}
+*/

@@ -1,81 +1,69 @@
-/*HEADER*/
 .navbar {
-    overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
     display: flex;
     justify-content: flex-end;
-
     z-index: 1000;
+    padding: 10px 0;
+    background-color: transparent; 
 }
 
 .menu-header {
-    float: right;
     display: flex;
     align-items: center;
+    padding-right: 20px; 
 }
 
 .menu-ul {
     font-family: 'Courier New', Courier, monospace;
-    text-decoration: none;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     display: flex;
-    flex-direction: row;
     gap: 20px;
 }
 
 .menu-li {
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration: none;
-    float: left;
     display: block;
+}
+
+.menu-li a {
     color: #f2f2f2;
-    text-align: center;
+    text-decoration: none;
     padding: 14px 16px;
     font-size: 2em;
+    display: block;
     transition: all 0.3s ease;
 }
 
-.menu-li:hover {
+.menu-li a:hover {
     font-style: oblique;
-    color: #f2f2f2;
-    font-size: 2.5em;
+    transform: scale(1.1); 
     text-decoration: underline;
+    transition: all 0.3s ease;
 }
-
-ul li a {
-    text-decoration: none;
-    color: inherit;
-}
-
 
 /* RESPONSIVENESS */
 @media screen and (max-width: 768px) {
+    .navbar {
+        justify-content: center; 
+    }
+    
     .menu-ul {
         flex-direction: column;
-        text-align: center;
-        width: 100%;
         gap: 10px;
+        width: 100%;
+        align-items: center;
     }
 
-    .menu-li {
+    .menu-li a {
         font-size: 1.5em;
         padding: 8px 0;
-
-        .menu-li:hover {
-            font-size: 2em;
-        }
-
-        .navbar {
-            justify-content: flex-end;
-            padding: 10px 0;
-        }
     }
-}
-.menu-li a {
-    transition: all 0.3s ease;
+
+    .menu-li a:hover {
+        font-size: 1.8em;
+        transform: none;
+    }
 }
