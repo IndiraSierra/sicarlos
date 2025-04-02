@@ -6,7 +6,7 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    padding: 10px;
+
     z-index: 1000;
 }
 
@@ -75,4 +75,7 @@ ul li a {
             padding: 10px 0;
         }
     }
+}
+.menu-li a {
+    transition: all 0.3s ease;
 }
