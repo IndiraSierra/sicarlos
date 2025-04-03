@@ -6,13 +6,105 @@
     justify-content: flex-end;
     z-index: 1000;
     padding: 10px 0;
-    background-color: transparent; 
+    overflow: visible; 
+    background: linear-gradient(
+        -45deg,
+        #f08d6f, #f08d6f, #f59bb5, #fa82b0, #c47fd6, #72d0f1, #63f1d0, #63f1d0
+    );
+    animation: gradient 15s ease infinite;
+    color: white;
+    transition: transform 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+    will-change: transform;
 }
 
+/* PARTICLES BLOCK 1 */
+#menu-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 10% 15%, rgba(255, 255, 255, 0.9) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 90% 85%, rgba(255, 255, 255, 0.9) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 15% 80%, rgba(255, 255, 255, 0.8) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 85% 20%, rgba(255, 255, 255, 0.8) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 25% 40%, rgba(255, 255, 255, 0.7) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 75% 60%, rgba(255, 255, 255, 0.7) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 40% 25%, rgba(255, 255, 255, 0.6) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 60% 75%, rgba(255, 255, 255, 0.6) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.5) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 30% 65%, rgba(255, 255, 255, 0.5) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 70% 35%, rgba(255, 255, 255, 0.5) 0.5px, transparent 1.8px);
+    background-size: 200px 200px;
+    animation: glitter-layer-1 2.5s infinite;
+}
+/* PARTICLES BLOCK 2 */
+#nmenu-header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 10%, rgba(255, 255, 255, 0.9) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 80% 90%, rgba(255, 255, 255, 0.9) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 10% 70%, rgba(255, 255, 255, 0.8) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 90% 30%, rgba(255, 255, 255, 0.8) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 35% 20%, rgba(255, 255, 255, 0.7) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 65% 80%, rgba(255, 255, 255, 0.7) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 45% 45%, rgba(255, 255, 255, 0.6) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 55% 55%, rgba(255, 255, 255, 0.6) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 20% 60%, rgba(255, 255, 255, 0.5) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 80% 40%, rgba(255, 255, 255, 0.5) 0.5px, transparent 1.8px),
+        radial-gradient(circle at 40% 80%, rgba(255, 255, 255, 0.5) 0.5px, transparent 1.8px);
+    background-size: 200px 200px;
+    animation: glitter-layer-2 2.5s infinite;
+}
+
+
+/* PARTICLES ANIMATIONS */
+@keyframes glitter-layer-1 {
+    0%, 33% { opacity: 0; }
+    10%, 25% { opacity: 0.7; }
+}
+
+@keyframes glitter-layer-2 {
+    33%, 66% { opacity: 0; }
+    40%, 60% { opacity: 0.7; }
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    25% { background-position: 25% 50%; }
+    50% { background-position: 100% 50%; }
+    75% { background-position: 75% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes glitter {
+    0%, 100% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+    }
+    25%, 75% {
+        box-shadow: 
+            0 0 10px rgba(255, 255, 255, 0.6),
+            0 0 20px rgba(255, 255, 255, 0.4);
+    }
+    50% {
+        box-shadow: 
+            0 0 15px rgba(255, 255, 255, 0.9),
+            0 0 30px rgba(255, 255, 255, 0.6);
+    }
+}
 .menu-header {
     display: flex;
     align-items: center;
     padding-right: 20px; 
+    position: relative;
+    z-index: 2;
 }
 
 .menu-ul {
@@ -26,6 +118,9 @@
 
 .menu-li {
     display: block;
+    position: relative;
+    z-index: 3;
+    text-shadow: 0 0 4px rgba(0,0,0,0.5)
 }
 
 .menu-li a {
@@ -42,6 +137,11 @@
     transform: scale(1.1); 
     text-decoration: underline;
     transition: all 0.3s ease;
+}
+#menu-header::before, 
+#nmenu-header::after {
+    z-index: 1; 
+    pointer-events: none; 
 }
 
 /* RESPONSIVENESS */

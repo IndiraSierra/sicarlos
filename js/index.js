@@ -45,4 +45,4 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // home section active default
     document.getElementById('home').classList.add('active');
-  
+})
