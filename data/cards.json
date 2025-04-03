@@ -96,6 +96,13 @@
         "description": "Asesoramiento y soluciones fraudulentas para evadir impuestos y tributos. Una solución para tus problemas fiscales.",
         "icon": "fa-money-bill-wave",
         "color": "#5a5c69"
+    },
+    {
+        "id": 15,
+        "title": "Secuestros Express",
+        "description": ". Una solución para tus problemas fiscales.",
+        "icon": "fa-money-bill-wave",
+        "color": "#5a5c69"
     }
     
 ]

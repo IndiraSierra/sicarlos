@@ -46,3 +46,17 @@ document.addEventListener('DOMContentLoaded', function() {
     // home section active default
     document.getElementById('home').classList.add('active');
 })
+
+//ADD TEXT TO HTML IN SECTION ABOUT US
+document.addEventListener('DOMContentLoaded', function() {
+    fetch('/data/about-us.json')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('about-text').innerHTML = data.aboutUs.description;
+            document.querySelector('.about-title').textContent = data.aboutUs.title;
+        })
+        .catch(error => {
+            console.error('Error cargando el texto:', error);
+            document.getElementById('about-text').innerHTML = "Actualmente no podemos mostrar la información sobre nosotros. Por favor, inténtelo más tarde.";
+        });
+});

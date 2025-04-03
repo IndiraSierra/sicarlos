@@ -32,6 +32,7 @@
     overflow: hidden;
 }
 
+/*REMOVE THIS TO MAKE VIDEO COLORS MORE VIVID*/
 .video-overlay {
     position: absolute;
     top: 0;
