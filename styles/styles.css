@@ -53,7 +53,7 @@ body, html {
     height: 100vh;
 }
 /* PINK FASHION GLITTER EFFECT - VERSIÓN MEJORADA */
-#services, #contact, #news {
+#services, #contact, #news, #aboutUs {
     position: relative; 
     overflow: hidden; 
     background: linear-gradient(
@@ -65,7 +65,7 @@ body, html {
 }
 
 /* PARTICLES BLOCK 1 */
-#services::before, #contact::before, #news::before {
+#services::before, #contact::before, #news::before, #aboutUs::before {
     content: "";
     position: absolute;
     top: 0;
@@ -89,7 +89,7 @@ body, html {
 }
 
 /* PARTICLES BLOCK 2 */
-#services::after, #contact::after, #news::after {
+#services::after, #contact::after, #news::after, #aboutUs::after {
     content: "";
     position: absolute;
     top: 0;
