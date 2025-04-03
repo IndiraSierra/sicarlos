@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "title": "Desalojo de Ocupas",
+        "description": "Servicio exprés de reubicación involuntaria. Especialistas en persuasión inmobiliaria. Metodología propia de allanamiento.",
+        "icon": "fa-door-closed",
+        "color": "#4e73df",
+        "full-description": "¿Tienes ocupas molestos que no quieren dejar tu propiedad? ¡No te preocupes! En nuestro servicio exprés de desalojo, aplicamos técnicas avanzadas de persuasión inmobiliaria. Nuestro equipo sabe cómo 'invitar' a esos inquilinos no deseados a abandonar el lugar. Para pagos, aceptamos metales preciosos, estupefacientes, propiedades o incluso barriles de petróleo (sí, lo leíste bien). Si prefieres un trato en efectivo, ¡también lo tomamos! Por motivos de seguridad, no estamos manejando casos de políticos o policías, ya que el 'título' nos podría complicar la vida. La reubicación es rápida, efectiva y discreta."
+    },
+    {
+        "id": 2,
+        "title": "Reclamación de Deudas",
+        "description": "Gestión de morosos. Soluciones definitivas que no implican negociaciones. El dinero no habla, nosotros tampoco.",
+        "icon": "fa-hand-holding-usd",
+        "color": "#1cc88a",
+        "full-description": "¿Tu cliente no paga? Nosotros sí sabemos cómo hacer que se cumplan los acuerdos. Sin llamadas molestas, sin negociaciones. Usamos métodos eficaces y discretos que aseguran que tu deuda se recupere rápidamente. ¿Cómo puedes pagar? Fácil, acepta nuestra amplia gama de métodos de pago: desde metales preciosos hasta... bien, hasta órganos (¡sí, es un negocio flexible!). Por razones de seguridad, no trabajamos con políticos ni policías, ya que, bueno, no queremos complicarnos la vida. Si tienes un moroso, nosotros tenemos la solución."
+    },
+    {
+        "id": 3,
+        "title": "Tráfico de Estupefacientes",
+        "description": "Producción y distribución de estupefacientes a nivel internacional. Envíos garantizados y clientes siempre alucinando.",
+        "icon": "fa-pills",
+        "color": "#f6c23e",
+        "full-description": "Desde la producción hasta la distribución, nos encargamos de todo en el negocio de los estupefacientes. Sin embargo, no nos limitamos a lo básico: ¡hacemos envíos a nivel internacional! No importa qué necesites, siempre tenemos lo que buscas y garantizamos discreción y calidad. Pago flexible: oro, estupefacientes, propiedades, o incluso si tienes un par de barriles de petróleo en tu jardín, estamos dispuestos a negociar. Como siempre, no tratamos con políticos ni fuerzas de seguridad, por motivos de 'seguridad'."
+    },
+    {
+        "id": 4,
+        "title": "Comercio de Armas",
+        "description": "Compraventa de armamento para todos los gustos, desde aficionados hasta profesionales. Resuelve el conflicto por la vía rápida. Tenemos el instrumento adecuado para cada ocasión. ¡Ediciones limitadas con silenciador incluido!",
+        "icon": "fa-gun",
+        "color": "#e74a3b",
+        "full-description": "¿Tienes un conflicto que resolver? Ofrecemos armamento de alta calidad para todos los gustos: desde coleccionistas hasta los profesionales más exigentes. Si quieres rapidez y discreción, este es tu lugar. Ofrecemos ediciones limitadas, silenciadores, y hasta armamento personalizado. Los pagos pueden ser en oro, estupefacientes, propiedades o incluso productos como barriles de petróleo. Y sí, aceptamos órganos... pero por cuestiones de seguridad, los políticos y policías no están en nuestra lista de clientes."
+    },
+    {
+        "id": 5,
+        "title": "Logística de Envíos y Almacenamiento",
+        "description": "Transporte discreto y seguro de tus mercancías. Almacenamiento por enterramiento o subacuático, opción de servicios en tierras remotas. Sin preguntas, solo resultados.",
+        "icon": "fa-truck",
+        "color": "#36b9cc",
+        "full-description": "¿Necesitas mover mercancía con discreción? Te ayudamos a transportarla por rutas seguras y eficaces. Si el almacén tradicional no es lo tuyo, tenemos opciones premium como almacenamiento bajo el agua o en tierras remotas (sin preguntas, solo resultados). Nuestros métodos son rápidos y 100% seguros, y puedes pagar en efectivo, oro, propiedades o incluso estupefacientes. Si estás pensando en hacer un envío muy, muy discreto, también aceptamos órganos... pero solo si son de buena calidad, claro."
+    },
+    {
+        "id": 6,
+        "title": "Sobornos y Extorsiones",
+        "description": "Lo que se resuelve con dinero, no es problema. El dinero abre todas las puertas, y si no, las derribamos nosotros. Incentivando la financiación de las relaciones públicas.",
+        "icon": "fa-hand-holding-usd",
+        "color": "#e74a3b",
+        "full-description": "El dinero abre puertas, y si no las derribamos. Ofrecemos soluciones personalizadas de sobornos y extorsiones. Nos aseguramos de que tus necesidades se resuelvan de manera efectiva, discreta y rápida. Aceptamos pagos en efectivo, metales preciosos, bienes raíces, o incluso en productos como barriles de petróleo. Ten en cuenta que, por razones de seguridad, no trabajamos con políticos ni con fuerzas de seguridad. ¡Después de todo, no queremos que nuestros propios contratos se vean comprometidos!"
+    },
+    {
+        "id": 7,
+        "title": "Ajuste de Cuentas",
+        "description": "Mediación y conciliación para resolución de conflictos con cuentas pendientes. Tú pagas y nosotros lo llevamos 'a por tabaco'!",
+        "icon": "fa-user-slash",
+        "color": "#1cc88a",
+        "full-description": "¿Un ajuste de cuentas pendiente? Nosotros nos encargamos de que todo quede resuelto, de manera eficiente y discreta. Si alguien tiene que 'pagar' por sus errores, nosotros hacemos el trabajo sucio. No hacemos preguntas, solo cumplimos con nuestra parte. Los pagos son flexibles: desde dinero en efectivo hasta propiedades, oro o... barriles de petróleo. Eso sí, no tratamos con políticos ni con cuerpos de seguridad, por razones de... prudencia."
+    },
+    {
+        "id": 8,
+        "title": "Protección y Seguridad",
+        "description": "Desde escoltas de confianza hasta blindajes personalizados. Porque la tranquilidad no tiene precio, pero sí tarifa. A veces es la única inversión que merece la pena.",
+        "icon": "fa-shield-alt",
+        "color": "#5a5c69",
+        "full-description": "La seguridad es primordial, y sabemos cómo proteger lo que más te importa. Ofrecemos desde escoltas de confianza hasta vehículos blindados personalizados, adaptados a tus necesidades. Si tu vida está en riesgo o necesitas protección 24/7, tenemos la solución. ¿Formas de pago? Aceptamos efectivo, propiedades o incluso productos más 'exóticos' como órganos y barriles de petróleo. Eso sí, por razones de seguridad, no trabajamos con políticos ni policías, ya que prefieren mantenerse 'bajo perfil'."
+    },
+    {
+        "id": 9,
+        "title": "Lavado de Dinero",
+        "description": "Transformamos tus ingresos ilegales en dinero limpio con total discreción. También tenemos opciones disponibles para negocios completamente 'legítimos'.",
+        "icon": "fa-dollar-sign",
+        "color": "#f8f9fc",
+        "full-description": "Si tienes ingresos que necesitan 'limpieza', nosotros somos los expertos en hacerlo de manera discreta. Lavamos todo tipo de dinero, desde los que provienen de actividades más... turbias, hasta aquellos que provienen de negocios 'legítimos'. Puedes pagar con oro, propiedades, o incluso con un intercambio de bienes... ¿qué tal unos barriles de petróleo? Por motivos de seguridad, no aceptamos políticos ni policías, porque nunca se sabe quién está detrás de la puerta."
+    },
+    {
+        "id": 10,
+        "title": "Hackeo y Contraespionaje",
+        "description": "Acceso a información clasificada, eliminación de registros comprometedores al más puro estilo 'BARCENAS'. Seguridad digital a prueba de soplones.",
+        "icon": "fa-user-secret",
+        "color": "#6c757d",
+        "full-description": "¿Necesitas acceder a información confidencial? Nos encargamos de hackear, robar y destruir cualquier archivo que te haga falta. Todo, al más puro estilo 'BARCENAS'. Eliminamos pruebas, destruimos rastros y garantizamos seguridad digital a prueba de soplones. Los pagos aceptados incluyen efectivo, bienes inmuebles, o incluso estupefacientes. Eso sí, no tratamos con políticos ni con fuerzas de seguridad, por razones de... confidencialidad."
+    },
+    {
+        "id": 11,
+        "title": "Falsificación de Documentos",
+        "description": "Pasaportes, identificaciones, titulaciones, licencias y permisos, credenciales para una nueva vida. Calidad garantizada y durabilidad hasta que alguien se dé cuenta.",
+        "icon": "fa-id-card",
+        "color": "#858796",
+        "full-description": "Si necesitas un nuevo comienzo, podemos proporcionarte documentos falsificados que se verán 100% legítimos. Pasaportes, identificaciones, permisos... todo lo que necesitas para reiniciar tu vida. Nuestros documentos son de la mejor calidad y duran hasta que alguien empiece a investigar. Aceptamos pagos en efectivo, oro o propiedades. Y en un giro interesante, si tienes órganos a la venta, también los aceptamos como parte del trato."
+    },
+    {
+        "id": 12,
+        "title": "Identidades Falsas",
+        "description": "Nombres, historiales y hasta cuentas bancarias tan reales que hasta tu madre lo creerá. Sé ese que siempre quisiste ser. ¡Reinvéntate en minutos!",
+        "icon": "fa-user-edit",
+        "color": "#fd7e14",
+        "full-description": "¿Quieres empezar de nuevo? Nosotros podemos crear una nueva identidad para ti en minutos. Nombres, cuentas bancarias, historiales... todo será tan real que incluso tu madre se lo creerá. Ofrecemos identidades personalizadas, únicas y completamente funcionales. Como siempre, aceptamos pagos en efectivo, propiedades, oro... y barriles de petróleo. Pero por motivos de seguridad, no tratamos con políticos ni con fuerzas de seguridad."
+    },
+    {
+        "id": 13,
+        "title": "Tráfico de Influencias",
+        "description": "Enchufes y conexiones clave en política y justicia. ¿Necesitas un favor? ¿Quieres que tu problema se resuelva rápido? Aquí tenemos a los amigos adecuados.",
+        "icon": "fa-users",
+        "color": "#d63384",
+        "full-description": "¿Tienes un problema legal o político que necesitas resolver rápidamente? No te preocupes, tenemos los mejores contactos en los lugares adecuados: política, justicia, fuerzas de seguridad... los amigos que necesitas para resolverlo de manera discreta. Pagos en efectivo, propiedades o, si prefieres, en metales preciosos. ¡Todo es negociable! Sin embargo, no trabajamos con políticos ni con fuerzas de seguridad, por razones obvias de 'confidencialidad'."
+    },
+    {
+        "id": 14,
+        "title": "Fraude Fiscal",
+        "description": "Soluciones de evasión fiscal que garantizarán que tus impuestos sean tan invisibles como tus intenciones. Una solución para tus problemas fiscales.",
+        "icon": "fa-file-invoice-dollar",
+        "color": "#5a5c69",
+        "full-description": "¿Cansado de pagar impuestos? Nosotros tenemos la solución para evitar que te metan la mano en el bolsillo. Con nuestros métodos de evasión fiscal, tus impuestos se volverán invisibles. Todo de manera legal, claro, siempre que no te pillen. Pagos aceptados en oro, propiedades o incluso estupefacientes. Pero por razones de seguridad, no tratamos con políticos ni fuerzas de seguridad, porque nunca se sabe quién está detrás de la puerta."
+    },
+    {
+        "id": 15,
+        "title": "Secuestros Express",
+        "description": "Vacaciones temporales forzadas para terceros con servicio premium de realojamiento en zulos.",
+        "icon": "fa-hands-broken",
+        "color": "#343a40",
+        "full-description": "¿Necesitas una 'vacación' para alguien que ha cruzado la línea? Nosotros tenemos la solución con un servicio express de secuestro, que incluye alojamiento de lujo en un zulo o lugar aislado de tu elección. Con nuestros paquetes premium, tus 'huéspedes' tendrán todas las comodidades, solo que sin salida. Aceptamos pagos en efectivo, oro, propiedades o incluso estupefacientes. Y sí, los barriles de petróleo también son una opción viable."
+    },
+    {
+        "id": 16,
+        "title": "Eliminación de Testigos",
+        "description": "Solución rápida y silenciosa para borrar rastros y recuerdos incómodos. Si alguien te está mirando demasiado, ya sabes a quién llamar.",
+        "icon": "fa-skull-crossbones",
+        "color": "#e83e8c",
+        "full-description": "¿Un testigo incómodo? Nosotros eliminamos cualquier vestigio de su existencia, garantizando que no dejen rastro. Todo resuelto de manera rápida, silenciosa y discreta. Aceptamos oro, propiedades, estupefacientes, e incluso órganos para nuestros servicios. Sin embargo, por razones de seguridad, no tratamos con políticos ni fuerzas de seguridad. Después de todo, un buen testigo podría hacer que se nos complique el negocio."
+    }
+]
