@@ -53,9 +53,47 @@ body, html {
     height: 100vh;
 }
 
-#services, #contact {
-    background-color: #121212;
+#services, #contact, #news{
+    background: linear-gradient(-45deg, #f08d6f, #f08d6f, #fa82b0, #72d0f1, #63f1d0);background: linear-gradient(
+        -45deg,
+        #f08d6f,        /* Color inicial */
+        #f08d6f,        /* Repetido para mantener tono */
+        #f59bb5,        /* Intermedio entre #f08d6f y #fa82b0 */
+        #fa82b0,        /* Color original */
+        #c47fd6,        /* Intermedio entre #fa82b0 y #72d0f1 */
+        #72d0f1,        /* Color original */
+        #63f1d0,        /* Color original */
+        #63f1d0         /* Repetido para cerrar suavemente */
+    );
+    animation: gradient 15s ease infinite, glitter 2s infinite;
     color: white;
+    
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 50% 75%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 50% 25%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes glitter {
+    0%, 100% {
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+    }
 }
 
 /* DEBUGGING
