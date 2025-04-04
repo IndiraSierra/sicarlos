@@ -28,6 +28,7 @@ const checkIfInFavArray = (element) => {
     return currentArray.indexOf(element) != -1;
 };
 
+
 const toggleFavorite = (id, button) => {
     console.log("Toggling favorite...");
     if (checkIfInFavArray(id)) {
