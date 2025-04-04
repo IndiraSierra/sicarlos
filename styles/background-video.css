@@ -11,11 +11,11 @@
     object-fit: cover;
     object-position: center;
     display: block;
-    -webkit-filter: blur(18px);
-    -moz-filter: blur(18px);
-    -o-filter: blur(18px);
-    -ms-filter: blur(18px);
-    filter: blur(18px);
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
 }
 
 
