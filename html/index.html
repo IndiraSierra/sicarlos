@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/styles/navbar.css" />
     <link rel="stylesheet" href="/styles/cards.css">
     <link rel="stylesheet" href="/styles/about-us.css">
+    <link rel="stylesheet" href="/styles/contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800;900&display=swap"
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
@@ -60,12 +61,17 @@
                 </div>
             </div>
         </section>
-
         <section id="services">
             <h2 class="services-title">Nuestros Servicios</h2>
-            <div class="content, grid-container" id="servicesGrid"></div>
-        </section>
 
+            <div class="content">
+                <button id="favButton" class="fav-button">❤️ Favoritos</button>
+                <button id="showAllButton" class="hidden">🔁 Ver Todos</button>
+            </div>
+
+            <div class="content grid-container" id="servicesGrid"></div>
+            <div class="content grid-container hidden" id="favoritesGrid"></div>
+        </section>
         <section id="news">
             <div class="content">
                 <h2>Noticias</h2>
@@ -73,14 +79,44 @@
         </section>
 
         <section id="contact">
-            <div class="content">
-                <h2>Contacto</h2>
+            <div>
+                <h2 class="contact-title content">Contáctanos</h2>
             </div>
+
+            <p class="contact-description">
+                "La violencia, la fuerza bruta, ha resuelto más problemas en la historia que cualquier otro factor, 
+                y la opinión contraria es un deseo a ultranza en su peor forma."  
+            </p>
+            <p class="contact-description">
+                Robert Heinlein (Starship Troopers)
+            </p>
+
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required placeholder="Escribe tu mensaje aquí"></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <p id="formResponse" class="hidden"></p>
         </section>
+
     </main>
     <footer></footer>
 
-    <script src="/js/index.js"></script>
+    <script type="module" src="/js/index.js"></script>
 </body>
 
 </html>

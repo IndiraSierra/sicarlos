@@ -1,0 +1,106 @@
+.contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: white;
+    margin: 30px 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7)
+}
+  
+  .contact-description {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  form {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #8cd1e5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+  
+ 
+  .form-group {
+    margin: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #120174;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 10;
+  }
+button:hover {
+    background-color: #fa1085;
+    font-style: italic;
+}
+
+button:focus {
+    outline: none;
+}
+
+input:focus,
+select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+input::placeholder {
+    color: #f87fee;
+}
+
+textarea::placeholder{
+    color: #f87fee;
+}
+
+@media (max-width: 768px) {
+    #contact-section {
+        padding: 1rem;
+    }
+
+    input,
+    select,
+    button {
+        font-size: 1rem;
+    }
+}
+  
+  .hidden {
+    display: none;
+  }
+  
+  #formResponse {
+    margin-top: 10px;
+    font-weight: bold;
+    color: green;
+  }
+  

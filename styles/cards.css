@@ -110,3 +110,45 @@ h1 {
 }
 
 
+.hire-button {
+    display: none; /* El botón "Contratar" se oculta por defecto */
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hire-button.hidden {
+    display: none; /* Ocultar el botón */
+}
+
+.hire-button:hover {
+    background-color: #218838; /* Color cuando se pasa el mouse */
+}
+
+
+/*FAVORITE BUTTON*/
+.fav-button {
+    background-color: pink;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+    color: #ffffff; 
+  }
+  
+  .fav-button:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  .hidden {
+    display: none;
+  }
+  
