@@ -50,4 +50,35 @@ class Service {
   }
 }
 
-export { Service };
+
+ class MemeManager {
+  constructor() {
+      this.allMemes = [];
+  }
+
+  setMemes(memes) {
+      this.allMemes = memes;
+  }
+
+  getAllMemes() {
+      return this.allMemes;
+  }
+
+  searchMemesByName(query) {
+      if (!query.trim()) {
+          return this.allMemes;
+      }
+      
+      const searchTerm = query.toLowerCase();
+      return this.allMemes.filter(meme => 
+          meme.name.toLowerCase().includes(searchTerm)
+      );
+  }
+
+  getMemeById(id) {
+      return this.allMemes.find(meme => meme.id === id) || null;
+  }
+}
+
+
+export { Service, MemeManager };

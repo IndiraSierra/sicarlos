@@ -1,5 +1,7 @@
-import { Service } from "/js/objects.js";  
+import { Service, MemeManager} from "/js/objects.js";  
 import { getFavArray } from "/js/localstorage.js";
+import { fetchMemes, displayMemes, showMessage, handleMemeSelection, toggleLoader } from '/js/functions.js';
+
 
 // MENU
 document.addEventListener('DOMContentLoaded', function () {
@@ -118,3 +120,70 @@ document.getElementById("showAllButton").addEventListener("click", () => {
   document.getElementById("showAllButton").classList.add("hidden");
   document.getElementById("favButton").classList.remove("hidden");
 });
+
+
+
+//SEARCH BAR
+
+const elements = {
+    searchInput: document.getElementById('search-input'),
+    searchButton: document.getElementById('search-button'),
+    memesContainer: document.getElementById('memes-container'),
+    messageElement: document.getElementById('message'),
+    loaderElement: document.getElementById('loader')
+};
+
+const memeManager = new MemeManager();
+
+async function initApp() {
+    try {
+        toggleLoader(elements.loaderElement, true);
+        const memes = await fetchMemes();
+        memeManager.setMemes(memes);
+        
+        // No mostramos los memes al iniciar, solo cargamos el catálogo
+        showMessage('Usa la barra de búsqueda para encontrar memes', elements.messageElement);
+        
+        toggleLoader(elements.loaderElement, false);
+    } catch (error) {
+        toggleLoader(elements.loaderElement, false);
+        showMessage('Error al cargar el catálogo de memes. Intenta nuevamente.', elements.messageElement);
+    }
+}
+
+function handleSearch() {
+    const query = elements.searchInput.value;
+    
+    if (!query.trim()) {
+        showMessage('Por favor ingresa un término de búsqueda', elements.messageElement);
+        elements.memesContainer.innerHTML = '';
+        return;
+    }
+    
+    const filteredMemes = memeManager.searchMemesByName(query);
+    
+    displayMemes(filteredMemes, elements.memesContainer);
+    
+    if (filteredMemes.length === 0) {
+        showMessage('No se encontraron memes con ese nombre.', elements.messageElement);
+    } else {
+        showMessage(`Se encontraron ${filteredMemes.length} memes para "${query}"`, elements.messageElement);
+    }
+}
+
+elements.searchButton.addEventListener('click', handleSearch);
+elements.searchInput.addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+        handleSearch();
+    }
+});
+
+elements.memesContainer.addEventListener('click', function(e) {
+    if (e.target.classList.contains('use-button')) {
+        const memeId = e.target.getAttribute('data-id');
+        const memeUrl = e.target.getAttribute('data-url');
+        handleMemeSelection(memeId, memeUrl);
+    }
+});
+
+window.addEventListener('load', initApp);
