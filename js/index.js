@@ -125,6 +125,7 @@ document.getElementById("showAllButton").addEventListener("click", () => {
 
 //SEARCH BAR
 
+
 const elements = {
     searchInput: document.getElementById('search-input'),
     searchButton: document.getElementById('search-button'),
@@ -132,6 +133,15 @@ const elements = {
     messageElement: document.getElementById('message'),
     loaderElement: document.getElementById('loader')
 };
+
+elements.searchButton.addEventListener('click', handleSearch);
+elements.searchInput.addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+        handleSearch();
+    }
+});
+
+initApp();
 
 const memeManager = new MemeManager();
 
@@ -187,3 +197,10 @@ elements.memesContainer.addEventListener('click', function(e) {
 });
 
 window.addEventListener('load', initApp);
+
+
+//FORM IS NOT GONNA WORK NOWHERE TO SEND A MESSAGE
+const contactForm = document.getElementById('contactForm');
+contactForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+});

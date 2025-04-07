@@ -42,7 +42,7 @@ class Service {
     // ADD TO FAVORITES
     const favButton = card.querySelector(".fav-button");
     favButton.addEventListener("click", (e) => {
-      e.stopPropagation(); // Evita que se active el toggle del card completo
+      e.stopPropagation();
       toggleFavorite(this.id, favButton);
     });
 
