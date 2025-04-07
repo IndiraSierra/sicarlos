@@ -44,24 +44,27 @@ git clone https://github.com/IndiraSierra/sicarlos.git
 Abrir en tu editor de código favorito.
 
 Estructura de SPA:
+```
 [ Menú Fijo ]
      ├── Nosotros
      ├── Servicios
      ├── Buscar Memes
      └── Contacto
-
+```
+```
 [ Header ]
      └── Video difuminado en bucle
-
+```
+```
 [ Secciones ]
      ├── Sección Nosotros       ← con texto desde about-us.json
      ├── Sección Servicios      ← cards desde cards.json
      ├── Sección Buscador Memes ← API de memes (imgflip)
      └── Sección Contacto       ← (en construcción)
-
+```
 
 Estructura de archivos:
-
+```
 sicarlos/
 │
 ├── index.html                       # HTML principal
@@ -87,7 +90,7 @@ sicarlos/
 │   └── search-bar.css               # Estilos del buscador de memes
 │
 └── README.md                        # Documentación del proyecto
-
+```
 Los archivos siguen la lógica de las carpetas. Los datos (json) están en la carpeta "Data". Los archivos .js están en una carpera "js", y los archivos css están en una carpeta llamada "Estilos".
 
 index.html: Archivo principal donde está la estructura HTML de la página.
