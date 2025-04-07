@@ -1,7 +1,10 @@
 # sicarlos
 CИKAPЛOC KИЛЛЭP
+<<<<<<< HEAD
 # sicarlos
 CИKAPЛOC KИЛЛЭP
+=======
+>>>>>>> 12f4eea95ca4e83880e2d2b9d107aaba33eea726
 
 Proyecto Individual Full Stack
 
