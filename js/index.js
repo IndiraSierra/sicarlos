@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // ADD TEXT TO HTML IN SECTION ABOUT US
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('/data/about-us.json')
+    fetch('data/about-us.json')
         .then(response => response.json())
         .then(data => {
             document.getElementById('about-text').innerHTML = data.aboutUs.description;
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const container = document.getElementById("servicesGrid");
 
     try {
-        const response = await fetch("/data/cards.json");
+        const response = await fetch("data/cards.json");
         const servicesData = await response.json();
 
         servicesData.forEach(serviceData => {
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 // FAVORITE BUTTON
 document.getElementById("favButton").addEventListener("click", async () => {
-  const allServices = await fetch("/data/cards.json").then((res) => res.json());
+  const allServices = await fetch("data/cards.json").then((res) => res.json());
   const favIds = getFavArray();
 
   const servicesGrid = document.getElementById("servicesGrid");
