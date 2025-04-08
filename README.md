@@ -168,5 +168,6 @@ Editar
 
 Licencia
 Este proyecto está bajo la Licencia MIT. Puedes usarlo, modificarlo y distribuirlo según lo desees.
-Pero mejor no lo distribuyas porque las responsabilidades sobre distribuir una web basada en servicios de sicarios recale completamente en su distribiudor.
+Pero mejor no lo distribuyas porque las responsabilidades sobre distribuir una web basada en servicios de sicarios recae completamente en su distribiudor.
+Esto es un proyecto de clase, no sacar las cosas de contexto, pero si lo sacas de contexto, tengo un amigo polaco que te ayudará a entrar en razoón =).
 
