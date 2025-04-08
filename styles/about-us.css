@@ -22,7 +22,7 @@
     display: flex;
     align-items: center;
     z-index: 1;
-    background-image:url("../assets/sicarlos.jpg");  
+    background-image:url("../../assets/sicarlos.jpg");  
 }
 
 .about-img {
